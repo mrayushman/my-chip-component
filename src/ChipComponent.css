@@ -1,0 +1,130 @@
+/* src/ChipComponent.css */
+
+.chip-component {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    align-items: flex-start;
+  }
+  
+  .input-chips-container {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+  }
+  
+  .chips-container {
+    display: flex;
+    gap: 8px;
+  }
+  
+  .chip {
+    background-color: #4caf50;
+    color: white;
+    padding: 8px;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .chip-info {
+    display: flex;
+    align-items: center;
+  }
+  
+  .chip-photo {
+    border-radius: 50%;
+    margin-right: 8px;
+  }
+  
+  .chip-photo img {
+    width: 24px;
+    height: 24px;
+  }
+  
+  .chip-details {
+    margin-left: 8px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .chip-name {
+    font-weight: bold;
+    margin-bottom: 2px;
+  }
+  
+  .chip-email {
+    color: #666;
+    margin-left: 4px; /* Add margin to separate name and email */
+  }
+  
+  .chip-remove-btn {
+    background-color: transparent;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  .input-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .input-field {
+    padding: 8px;
+    border: 1px solid #ccc;
+  }
+  
+  .suggestions-container {
+    width: auto;
+    max-width: 300px;
+  }
+  
+  .item-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .item {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    padding: 8px;
+    border: 1px solid #ccc;
+    margin-bottom: 8px;
+  }
+  
+  .chip-info {
+    display: flex;
+    align-items: center;
+  }
+  
+  .chip-photo {
+    border-radius: 50%;
+    margin-right: 8px;
+  }
+  
+  .chip-photo img {
+    width: 24px;
+    height: 24px;
+  }
+  
+  .chip-details {
+    margin-left: 8px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .chip-name {
+    font-weight: bold;
+    margin-bottom: 2px;
+  }
+  
+  .chip-email {
+    color: #666;
+    margin-left: 4px; /* Add margin to separate name and email */
+  }
+  
